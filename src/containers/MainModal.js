@@ -9,7 +9,6 @@ import AnalitikaRacuna from './AnalitikaRacuna';
 import Dokumenta from './Dokumenta';
 import KreiranjeDokumenata from './KreiranjeDokumenata';
 import KnjizenjeRobe from './KnjizenjeRobe';
-import UgasiCitate from './UgasiCitate';
 import Kontakt from './Kontakt';
 
 
@@ -29,7 +28,6 @@ class MainModal extends Component {
           Dokumenta:false,
           KreiranjeDokumenata:false,
           KnjizenjeRobe:false,
-          UgasiCitate:false,
           Kontakt:false
         }
       }
@@ -61,7 +59,6 @@ class MainModal extends Component {
                     <button onClick={event => { event.preventDefault(); this.showModal("Dokumenta")}}>Dokumenta</button>
                     <button onClick={event => { event.preventDefault(); this.showModal("KreiranjeDokumenata")}}>Kreiranje dokumenata</button>
                     <button onClick={event => { event.preventDefault(); this.showModal("KnjizenjeRobe")}}>Knjiženje robe</button>
-                    <button onClick={event => { event.preventDefault(); this.showModal("UgasiCitate")}}>Ugasi citate</button>
                     <button onClick={event => { event.preventDefault(); this.showModal("Kontakt")}}>Kontakt</button>
                 </div>
                 <div className="prikazModala">
@@ -92,8 +89,6 @@ class MainModal extends Component {
                 <KnjizenjeRobe show={this.state.KnjizenjeRobe}>
                 <button  onClick={event => { event.preventDefault(); this.hideModal("KnjizenjeRobe")}}>X</button>
                 </KnjizenjeRobe>
-                <UgasiCitate show={this.state.UgasiCitate}>
-                </UgasiCitate>
                 <Kontakt show={this.state.Kontakt}>
                 <button  onClick={event => { event.preventDefault(); this.hideModal("Kontakt")}}>X</button>
                 </Kontakt>

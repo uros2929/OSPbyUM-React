@@ -5,7 +5,7 @@ class UgasiCitate extends Component{
 
 render(){
     return(
-        <div style={{ display: this.props.show ? "block" : "none" }}>UgasiCitate</div>
+        <div style={{ display: this.props.show ? "block" : "none" }}>CITATI</div>
     )
 }
   
