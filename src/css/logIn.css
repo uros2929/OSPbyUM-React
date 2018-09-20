@@ -1,0 +1,36 @@
+.modalLogIn{
+    background-color: rgb(30,34,34);
+    list-style: none;
+    width: 40%;
+    margin: auto;
+    margin-top: 3%;
+    height: 300px;
+    box-shadow: 5px 1px 81px 37px rgba(72,181,140,0.25); 
+    border-radius: 50%;
+}
+.modalLogIn input{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 20px;
+    border:solid 3px rgb(72,181,140);
+}
+.modalLogIn input:placeholder-shown{
+    border:solid 3px rgb(255, 85, 0);
+}
+.modalLogIn label{
+    margin-top: 10px;
+    color: white;
+    font-size: 24px
+}
+#dugmePrijaviSe{
+cursor: pointer;  
+background-color: rgb(63, 63, 66);
+border-color:  rgb(63, 63, 66);
+color: white;
+font-size: 20px;
+-webkit-transition-duration: 0.4s; 
+transition-duration: 0.4s;
+}
+#dugmePrijaviSe:hover{
+border-color: rgb(255, 85, 0);
+}
