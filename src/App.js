@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import StartModal from './containers/StartModal';
-import LoginModal from './containers/LoginModal';
-import SinginModal from './containers/SignInModal';
-import MainModal from './containers/MainModal';
-import MainHeaderModal from './containers/MainHeaderModal';
-import Sat from './containers/Sat';
+import StartModal from './components/StartModal';
+import LoginModal from './components/LoginModal';
+import SinginModal from './components/SignInModal';
+import MainModal from './components/MainModal';
+import MainHeaderModal from './components/MainHeaderModal';
+import Sat from './components/Sat';
 
 
 import './App.css';
