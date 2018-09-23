@@ -5,3 +5,37 @@
     position: relative;
     float: right;
 }
+.digitronModal input{
+    width: 60%;
+    position: relative;
+    margin: auto;
+    font-size: 60px;
+    border: solid 3px rgb(72,181,140);
+    background-color: rgb(70, 73, 74);
+    color: white;
+}
+.digitronDugmici button{
+    width:20%;
+    height: 80px;
+    border: solid 3px rgb(72,181,140);
+    border-radius: 25%;
+    background-color: rgb(70, 73, 74);
+    color: white;
+    font-size: 24px;
+    margin: 1%;
+    cursor: pointer;
+}
+.digitronDugmici button:hover{
+    border-color: rgb(70, 73, 74);
+    background-color:rgb(72,181,140);
+}
+.digitronDugmici{
+    top: 10px;
+    width: 40%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
